@@ -1,0 +1,87 @@
+@import url(common.css);
+@import url(home.css);
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html * {
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale; }
+
+input[type='search']::-webkit-search-cancel-button {
+  -webkit-appearance: searchfield-cancel-button; }
+
+*::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(0, 4, 68, 0.3); }
+
+input, textarea, keygen, select, button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0; }
+
+input:focus, textarea:focus, keygen:focus, select:focus, button:focus {
+  outline: none; }
+
+abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box; }
+
+a {
+  color: #303330;
+  text-decoration: none; }
+
+@font-face {
+  font-family: 'josefin';
+  src: url("../fonts/JosefinSans-Regular.ttf") format("truetype");
+  font-weight: 400; }
+@font-face {
+  font-family: 'josefin';
+  src: url("../fonts/JosefinSans-SemiBold.ttf") format("truetype");
+  font-weight: 600; }
+@font-face {
+  font-family: 'josefin';
+  src: url("../fonts/JosefinSans-Bold.ttf") format("truetype");
+  font-weight: 700; }
+body {
+  font-family: 'josefin', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  overflow: hidden; }
+
+img {
+  width: 100%; }
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2ecc71; }
+
+@media (max-width: 768px) {
+  body {
+    overflow: auto; } }
+
+/*# sourceMappingURL=style.css.map */
