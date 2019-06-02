@@ -10,7 +10,8 @@
     position: relative;
     padding: 0 0 0 20px; }
     .me-home .content .avatar .border-img, .me-about .content .avatar .border-img {
-      box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.1); }
+      box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.1);
+      position: relative; }
     .me-home .content .avatar .border-img:before, .me-about .content .avatar .border-img:before {
       position: absolute;
       content: "";
