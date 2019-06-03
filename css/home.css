@@ -59,6 +59,9 @@
       .me-home .content .content-detail #typer, .me-about .content .content-detail #typer {
         height: 34px; } }
 
+a.website {
+  color: #2ecc71; }
+
 .btn-contact {
   color: #333333;
   padding: 10px 20px;
